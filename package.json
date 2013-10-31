@@ -1,0 +1,30 @@
+{
+  "name": "authentication",
+  "version": "0.0.0",
+  "description": "Basic Faye Based Web App Structure supporting authentication and Redis-backed sessions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertjaustin/webapp.git"
+  },
+	"dependencies": {
+		"hiredis": "*",
+		"redis": "*"
+	},
+  "keywords": [
+    "javascript",
+		"authentication",
+		"sessions",
+    "web",
+		"faye",
+		"redis"
+  ],
+  "author": "oatkiller",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/robertjaustin/webapp/issues"
+  }
+}
