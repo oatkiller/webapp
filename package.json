@@ -2,7 +2,7 @@
   "name": "authentication",
   "version": "0.0.0",
   "description": "Basic Faye Based Web App Structure supporting authentication and Redis-backed sessions.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "node test_runner.js"
   },
