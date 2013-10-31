@@ -4,7 +4,7 @@
   "description": "Basic Faye Based Web App Structure supporting authentication and Redis-backed sessions.",
   "main": "index.js",
   "scripts": {
-    "test": "node tests.js"
+    "test": "node test_runner.js"
   },
   "repository": {
     "type": "git",
