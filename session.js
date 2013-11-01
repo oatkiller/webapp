@@ -16,6 +16,8 @@ module.exports = function (secretKey) {
 		}
 	};
 
+	Session.prototype.signedIdLength = 316;
+
 	Session.prototype.getId = function () {
 		if (this.getIdPromise !== undefined) {
 			return this.getIdPromise;
